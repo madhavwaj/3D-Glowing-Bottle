@@ -24,3 +24,20 @@ section{
 	transform-origin: bottom center;
 	animation-play-state: run;
 }
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+	}
+	25%{
+		transform: rotate(22deg);
+	}
+		50%{
+		transform: rotate(0deg);
+	}
+		75%{
+		transform: rotate(-22deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
