@@ -54,3 +54,18 @@ section{
 	box-shadow: 0 10px #222;
 
 }
+.bowl::after{
+	content: "";
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.05);
+	transform-origin: center;
+	animation: animatebowlshadow 5s linear infinite;
+	border-radius: 50%;
+	animation-play-state: running;
+
+}
