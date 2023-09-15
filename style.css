@@ -69,3 +69,29 @@ section{
 	animation-play-state: running;
 
 }
+@keyframes animatebowlshadow{
+	0%{
+		left: 50%;
+		width: 150px;
+		height: 60px;
+	}
+25%{
+		left: 55%;
+		width: 140px;
+		height: 65px;
+	}50%{
+		left: 50%;
+		width: 150px;
+		height: 60px;
+	}
+	75%{
+		left: 45%;
+		width: 140px;
+		height: 65px;
+	}
+	100%{
+
+
+	}
+}
+
