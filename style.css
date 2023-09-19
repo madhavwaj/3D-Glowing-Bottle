@@ -106,5 +106,29 @@ section{
 	animation: animateliquid 5s linear infinite;
 	animation-play-state: running;
 }
+@keyframes animateliquid{
+	0%{
+		transform: rotate(0deg);
+	}
+	25%{
+		transform: rotate(-22deg);
+	}
+	30%{
+		transform: rotate(-23deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	75%{
+		transform: rotate(22deg);
+	}
+		80%{
+		transform: rotate(23deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
 
+
+}
 
