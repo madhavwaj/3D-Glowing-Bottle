@@ -69,6 +69,8 @@ section{
 	animation-play-state: running;
 
 }
+
+
 @keyframes animatebowlshadow{
 	0%{
 		left: 50%;
@@ -90,8 +92,12 @@ section{
 		height: 65px;
 	}
 	100%{
+
+
 	}
 }
+
+
 .liquid{
 	position: absolute;
 	top: 50%;
@@ -106,6 +112,7 @@ section{
 	animation: animateliquid 5s linear infinite;
 	animation-play-state: running;
 }
+
 @keyframes animateliquid{
 	0%{
 		transform: rotate(0deg);
@@ -128,6 +135,8 @@ section{
 	100%{
 		transform: rotate(0deg);
 	}
+
+
 }
 .liquid::before{
 	content: "";
@@ -151,4 +160,34 @@ section{
 	animation: animateshadow 5s linear infinite;
 	animation-play-state: running;
 
+}
+@keyframes animateshadow{
+	0%{
+		left: 50%;
+		width: 260px;
+		height: 40px;
+		top: calc(50% + 150px);
+
+	}
+
+	25%{
+		left: 55%;
+		width: 265px;
+		height: 30px;
+		top: calc(50% + 130px);
+		
+	}50%{
+		left: 50%;
+		width: 260px;
+		height: 40px;
+		top: calc(50% + 150px);
+		
+	}75%{
+		left: 45%;
+		width: 265px;
+		height: 30px;
+		top: calc(50% + 130px);
+		
+	}100%{
+	}
 }
